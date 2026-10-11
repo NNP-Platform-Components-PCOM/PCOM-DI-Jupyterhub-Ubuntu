@@ -17,3 +17,5 @@ LABEL org.opencontainers.image.title="pcom-di-jupyterhub-ubuntu" \
       org.opencontainers.image.version="${VERSION}" \
       org.opencontainers.image.revision="${VCS_REF}" \
       org.opencontainers.image.created="${BUILD_DATE}"
+
+COPY requirements.txt /tmp/requirements.txt
